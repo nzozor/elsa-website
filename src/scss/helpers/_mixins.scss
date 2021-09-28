@@ -134,3 +134,16 @@
     @media (max-width: 1199.98px) { @content; }
   }
 }
+
+@mixin bold-text {
+  font-family: Calibre-Light;
+  font-size: 19px;
+  margin-bottom: 13px;
+  color: black;
+  @include breakpoint-less(md) {
+    font-size: 16.8px;
+    margin-bottom: 13px;
+    color: black;
+    line-height: 23.5px;
+  }
+}

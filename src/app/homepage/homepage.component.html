@@ -7,7 +7,13 @@
 
 <ng-container *ngIf="thumbnails$ | async as thumbnails">
   <benoldi-portfolio-section [thumbnails]="thumbnails"></benoldi-portfolio-section>
+  <div class="see-more">
+    <a [routerLink]="['/work']">
+        <span>
+        See more
+      </span> 
+      </a>
+  </div>
 </ng-container>
-
 <benoldi-reviews class="benoldi-reviews"></benoldi-reviews>
 <benoldi-call-to-action class="benoldi-call-to-action"></benoldi-call-to-action>
