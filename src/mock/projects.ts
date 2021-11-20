@@ -1,95 +1,46 @@
 import { Project } from 'src/app/shared/models/project';
 export const BENOLDI_PROJECTS: Project[] = [
   {
-    projectId: "beauti",
-    projectName: "Beauti",
+    projectId: "flavia-frigeri",
+    projectName: "Flavia Frigeri",
     projectDescription:
-      "Refreshed brand identity for a beauty and skin clinic chain in London. The visual language has evolved to feel more inclusive, open and sophisticated. The customized typography matches soft curves and straight lines and the letters reveal sinuous shapes. The identity captures its unique mix of playfulness and harmony.",
-    clientName: "Beauti Skin Clinic",
-    clientUrl: "http://www.beautiskinclinic.com",
-    services: "Logo Design, Web Design, Brochure",
+      "Brand identity and responsive website design for Flavia Frigeri an art historian, curator and lecturer who focuses on modern and contemporary art. A clear, modular, and fundamentally minimal grid provides a ‘simple’ canvas to highlight the relevance of Flavia’s commissions. The use of both serif and sans-serif fonts, provides a curious yet elegant touch to the simplicity of the design.",
+    clientName: "Flavia Frigeri",
+    clientUrl: "https://www.flaviafrigeri.com/",
+    services: "Logo, Website Design",
     country: "UK",
     mainImgUrlSmall:
-      "/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-mobile.jpg",
+      "/assets/images/projects/flaviafrigeri/flavia-frigeri-website-ui-branding-homepage-mobile.jpg",
     mainImgUrlLarge:
-      "/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-main.jpg",
+      "/assets/images/projects/flaviafrigeri/flavia-frigeri-website-ui-branding-homepage-main.jpg",
     thumbnailUrlSmall:
-      "/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-mobile.jpg",
+      "/assets/images/projects/flaviafrigeri/flavia-frigeri-website-ui-branding-homepage-mobile.jpg",
     thumbnailUrlLarge:
-      "/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-thumb.jpg",
+      "/assets/images/projects/flaviafrigeri/flavia-frigeri-website-ui-branding-homepage-thumb.jpg",
     galleryImgs: [
       {
         smallImgUrl:
-          "/assets/images/projects/beauti/Beauti-skin-clinic-london-logo-design-mobile.jpg",
+          "/assets/images/projects/flaviafrigeri/flavia-frigeri-website-ui-branding-exhibitions-mobile.jpg",
         largeImgUrl:
-          "/assets/images/projects/beauti/Beauti-skin-clinic-london-logo-design-big.jpg",
+          "/assets/images/projects/flaviafrigeri/flavia-frigeri-website-ui-branding-exhibitions-big.jpg",
         type: "full"
       },
       {
         smallImgUrl:
-          "/assets/images/projects/beauti/Beauti-skin-clinic-london-salon-brochure-mobile.jpg",
+          "/assets/images/projects/flaviafrigeri/flavia-frigeri-website-ui-branding-books-mobile.jpg",
         largeImgUrl:
-          "/assets/images/projects/beauti/Beauti-skin-clinic-london-salon-brochure.jpg",
-        type: "half"
+          "/assets/images/projects/flaviafrigeri/flavia-frigeri-website-ui-branding-books-big.jpg",
+        type: "full"
       },
       {
         smallImgUrl:
-          "/assets/images/projects/beauti/Beauti-skin-clinic-london-beauty-brochure-mobile.jpg",
+          "/assets/images/projects/flaviafrigeri/flavia-frigeri-website-ui-branding-essays-mobile.jpg",
         largeImgUrl:
-          "/assets/images/projects/beauti/Beauti-skin-clinic-london-beauty-brochure.jpg",
-        type: "half"
-      },
-      {
-        smallImgUrl:
-          "/assets/images/projects/beauti/Beauti-skin-clinic-london-website-mobileapp-mobile.jpg",
-        largeImgUrl:
-          "/assets/images/projects/beauti/Beauti-skin-clinic-london-website-mobileapp-big.jpg",
+          "/assets/images/projects/flaviafrigeri/flavia-frigeri-website-ui-branding-essays-big.jpg",
         type: "full"
       }
     ],
-    imgAlt: "Beauti Skin Clinic London | Elsa Benoldi Graphic Design"
-  },
-  {
-    projectId: "italy-at-frieze",
-    projectName: "Italy at Frieze",
-    projectDescription:
-      "Catalogue design for Italy at Frieze exhibition that was held at the Embassy on Italy in London. The one-of-a-kind event in London was part of the programme of the art fairs Frieze London and Frieze Masters, which draw collectors and art lovers from around the world.",
-    clientName: "Embassy of Italy",
-    clientUrl: "",
-    services: "Catalogue Design",
-    country: "UK",
-    mainImgUrlSmall:
-      "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-scheggi-mobile.jpg",
-    mainImgUrlLarge:
-      "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-scheggi-main.jpg",
-    thumbnailUrlSmall:
-      "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-scheggi-mobile.jpg",
-    thumbnailUrlLarge:
-      "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-scheggi-thumb.jpg",
-    galleryImgs: [
-      {
-        smallImgUrl:
-          "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-mobile.jpg",
-        largeImgUrl:
-          "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-big.jpg",
-        type: "full"
-      },
-      {
-        smallImgUrl:
-          "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-pistoletto-mobile.jpg",
-        largeImgUrl:
-          "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-pistoletto-big.jpg",
-        type: "full"
-      },
-      {
-        smallImgUrl:
-          "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-embassy-pistoletto-mobile.jpg",
-        largeImgUrl:
-          "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-embassy-pistoletto-big.jpg",
-        type: "full"
-      }
-    ],
-    imgAlt: "Italy at Frieze | Elsa Benoldi Graphic Design"
+    imgAlt: "Flavia Frigeri | Elsa Benoldi Graphic Design"
   },
   {
     projectId: "De-Stress-Me",
@@ -105,9 +56,9 @@ export const BENOLDI_PROJECTS: Project[] = [
     mainImgUrlLarge:
       "/assets/images/projects/destressme/destressme-wellness-spa-skincare-logo-design-main.jpg",
     thumbnailUrlSmall:
-      "/assets/images/projects/destressme/destressme-wellness-spa-skincare-logo-design-mobile.jpg",
+      "/assets/images/projects/destressme/destressme-wellness-spa-skincare-soap-packaging-big.jpg",
     thumbnailUrlLarge:
-      "/assets/images/projects/destressme/destressme-wellness-spa-skincare-logo-design-thumb.jpg",
+      "/assets/images/projects/destressme/destressme-wellness-spa-skincare-soap-packaging-big.jpg",
     galleryImgs: [
       {
         smallImgUrl:
@@ -134,116 +85,102 @@ export const BENOLDI_PROJECTS: Project[] = [
     imgAlt: "De–Stress Me | Elsa Benoldi Graphic Design"
   },
   {
-    projectId: "Faceology",
-    projectName: "Faceology",
+    projectId: "marblk",
+    projectName: "Marblk",
     projectDescription:
-      "Branding project for a global beauty chain specialized in facial treatments. The first shop has been opend in Moscow, Russia. The project includes logo design, packaging, stationery, signs, uniform and website design.",
-    clientName: "Faceology",
+      "Branding project for a new luxury marble store in Antwerpen, Belgium. The letter ‘M’ of the symbol is reflected on an imaginary marble surface and it creates a sophisticated and memorable mark.",
+    clientName: "Marblk",
     clientUrl: "",
-    services: "Creative Direction",
-    country: "Russia",
+    services: "Branding",
+    country: "Belgium",
     mainImgUrlSmall:
-      "/assets/images/projects/faceology/faceology-skincare-beauty-salon-soap-packaging-mobile.jpg",
+      "/assets/images/projects/marblk/marblk-luxury-marble-branding-logo-design-mobile.jpg",
     mainImgUrlLarge:
-      "/assets/images/projects/faceology/faceology-skincare-beauty-salon-soap-packaging-main.jpg",
+      "/assets/images/projects/marblk/marblk-luxury-marble-branding-logo-design-main.jpg",
     thumbnailUrlSmall:
-      "/assets/images/projects/faceology/faceology-skincare-beauty-salon-soap-packaging-mobile.jpg",
+      "/assets/images/projects/marblk/marblk-luxury-marble-branding-logo-design-mobile.jpg",
     thumbnailUrlLarge:
-      "/assets/images/projects/faceology/faceology-skincare-beauty-salon-soap-packaging-thumb.jpg",
+      "/assets/images/projects/marblk/marblk-luxury-marble-branding-logo-design-thumb.jpg",
     galleryImgs: [
       {
         smallImgUrl:
-          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-logo-design-mobile.jpg",
+          "/assets/images/projects/marblk/marblk-luxury-marble-ui-phone-logo-design-mobile.jpg",
         largeImgUrl:
-          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-logo-design-half.jpg",
-        type: "half"
-      },
-      {
-        smallImgUrl:
-          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-icons-design-mobile.jpg",
-        largeImgUrl:
-          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-icons-design-half.jpg",
-        type: "half"
-      },
-      {
-        smallImgUrl:
-          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-website-design-mobile.jpg",
-        largeImgUrl:
-          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-website-design-big.jpg",
+          "/assets/images/projects/marblk/marblk-luxury-marble-ui-phone-logo-design-big.jpg",
         type: "full"
       },
       {
         smallImgUrl:
-          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-interior-design-mobile.jpg",
+          "/assets/images/projects/marblk/marblk-luxury-marble-pattern-branding-logo-design-mobile.jpg",
         largeImgUrl:
-          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-interior-design-half.jpg",
+          "/assets/images/projects/marblk/marblk-luxury-marble-pattern-branding-logo-design-half.jpg",
         type: "half"
       },
       {
         smallImgUrl:
-          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-business-cards-mobile.jpg",
+          "/assets/images/projects/marblk/marblk-luxury-marble-social-phone-logo-design-mobile.jpg",
         largeImgUrl:
-          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-business-cards-half.jpg",
+          "/assets/images/projects/marblk/marblk-luxury-marble-social-phone-logo-design-half.jpg",
+        type: "half"
+      },
+      {
+        smallImgUrl:
+          "/assets/images/projects/marblk/marblk-luxury-marble-logo-interior-design-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/marblk/marblk-luxury-marble-logo-interior-design-half.jpg",
+        type: "half"
+      },
+      {
+        smallImgUrl:
+          "/assets/images/projects/marblk/marblk-luxury-marble-social-media-logo-design-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/marblk/marblk-luxury-marble-social-media-logo-design-half.jpg",
         type: "half"
       }
     ],
-    imgAlt: "Faceology | Elsa Benoldi Graphic Design"
+    imgAlt: "Marblk | Elsa Benoldi Graphic Design"
   },
   {
-    projectId: "nailor",
-    projectName: "Nailor",
+    projectId: "who-be-me",
+    projectName: "Who Be Me",
     projectDescription:
-      "Brand identity for a new professional line of nail polishes. The project includes logo and labels design. Nailor is a solution for creative professionals which offers best-selling shades of gel and nail polish to create a true masterpiece.",
-    clientName: "Nailor",
-    clientUrl: "https://nailorstore.com/",
-    services: "Logo, Packaging, Biz Card",
-    country: "Latvia",
+      "Catalogue design for Kofi Setordji’s exhibition in Accra, Ghana. In this exhibition, Nada Moukarzel, founder of La Maison and curator of Who Be Me, creates a series of unique, living environments in which artist Kofi Setordji expresses and exhibits new artworks.",
+    clientName: "La Maison",
+    clientUrl: "",
+    services: "Catalogue Design",
+    country: "Ghana",
     mainImgUrlSmall:
-      "/assets/images/projects/nailor/nailor-nail-polish-manicure-business-card-design-mobile.jpg",
+      "/assets/images/projects/whobeme/whobeme-exhibition-ghana-art-catalogue-lamaison-kofi-setordji-mobile.jpg",
     mainImgUrlLarge:
-      "/assets/images/projects/nailor/nailor-nail-polish-manicure-business-card-design-main.jpg",
+      "/assets/images/projects/whobeme/whobeme-exhibition-ghana-art-catalogue-lamaison-kofi-setordji-main.jpg",
     thumbnailUrlSmall:
-      "/assets/images/projects/nailor/nailor-nail-polish-manicure-business-card-design-mobile.jpg",
+      "/assets/images/projects/whobeme/whobeme-exhibition-ghana-art-catalogue-lamaison-kofi-setordji-mobile.jpg",
     thumbnailUrlLarge:
-      "/assets/images/projects/nailor/nailor-nail-polish-manicure-business-card-design-thumb.jpg",
+      "/assets/images/projects/whobeme/whobeme-exhibition-ghana-art-catalogue-lamaison-kofi-setordji-thumb.jpg",
     galleryImgs: [
       {
         smallImgUrl:
-          "/assets/images/projects/nailor/nailor-nail-polish-manicure-logo-design-mobile.jpg",
+          "/assets/images/projects/whobeme/whobeme-exhibition-ghana-catalogue-lamaison-kofi-setordji-mobile.jpg",
         largeImgUrl:
-          "/assets/images/projects/nailor/nailor-nail-polish-manicure-logo-design-half.jpg",
+          "/assets/images/projects/whobeme/whobeme-exhibition-ghana-catalogue-lamaison-kofi-setordji-half.jpg",
         type: "half"
       },
       {
         smallImgUrl:
-          "/assets/images/projects/nailor/nailor-nail-polish-manicure-gift-packaging-design-mobile.jpg",
+          "/assets/images/projects/whobeme/whobeme-exhibition-ghana-catalogue-ayse-birsel-bibi-seck-chair-mobile.jpg",
         largeImgUrl:
-          "/assets/images/projects/nailor/nailor-nail-polish-manicure-gift-packaging-design-half.jpg",
+          "/assets/images/projects/whobeme/whobeme-exhibition-ghana-catalogue-ayse-birsel-bibi-seck-chair-half.jpg",
         type: "half"
       },
       {
         smallImgUrl:
-          "/assets/images/projects/nailor/nailor-nail-polish-manicure-label-packaging-mobile.jpg",
+          "/assets/images/projects/whobeme/whobeme-exhibition-ghana-art-painting-catalogue-lamaison-kofi-setordji-mobile.jpg",
         largeImgUrl:
-          "/assets/images/projects/nailor/nailor-nail-polish-manicure-label-packaging-big.jpg",
+          "/assets/images/projects/whobeme/whobeme-exhibition-ghana-art-painting-catalogue-lamaison-kofi-setordji-big.jpg",
         type: "full"
-      },
-      {
-        smallImgUrl:
-          "/assets/images/projects/nailor/nailor-nail-polish-manicure-packaging-design-mobile.jpg",
-        largeImgUrl:
-          "/assets/images/projects/nailor/nailor-nail-polish-manicure-packaging-design-half.jpg",
-        type: "half"
-      },
-      {
-        smallImgUrl:
-          "/assets/images/projects/nailor/nailor-nail-art-polish-manicure-packaging-label-design-mobile.jpg",
-        largeImgUrl:
-          "/assets/images/projects/nailor/nailor-nail-art-polish-manicure-packaging-label-design-half.jpg",
-        type: "half"
       }
     ],
-    imgAlt: "Nailor | Elsa Benoldi Graphic Design"
+    imgAlt: "Who Be Me | Elsa Benoldi Graphic Design"
   },
   {
     projectId: "Tenten",
@@ -316,47 +253,210 @@ export const BENOLDI_PROJECTS: Project[] = [
     imgAlt: "Tenten | Elsa Benoldi Graphic Design"
   },
   {
-    projectId: "who-be-me",
-    projectName: "Who Be Me",
+    projectId: "beauti",
+    projectName: "Beauti",
     projectDescription:
-      "Catalogue design for Kofi Setordji’s exhibition in Accra, Ghana. In this exhibition, Nada Moukarzel, founder of La Maison and curator of Who Be Me, creates a series of unique, living environments in which artist Kofi Setordji expresses and exhibits new artworks.",
-    clientName: "La Maison",
-    clientUrl: "",
-    services: "Catalogue Design",
-    country: "Ghana",
+      "Refreshed brand identity for a beauty and skin clinic chain in London. The visual language has evolved to feel more inclusive, open and sophisticated. The customized typography matches soft curves and straight lines and the letters reveal sinuous shapes. The identity captures its unique mix of playfulness and harmony.",
+    clientName: "Beauti Skin Clinic",
+    clientUrl: "http://www.beautiskinclinic.com",
+    services: "Logo Design, Web Design, Brochure",
+    country: "UK",
     mainImgUrlSmall:
-      "/assets/images/projects/whobeme/whobeme-exhibition-ghana-art-catalogue-lamaison-kofi-setordji-mobile.jpg",
+      "/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-mobile.jpg",
     mainImgUrlLarge:
-      "/assets/images/projects/whobeme/whobeme-exhibition-ghana-art-catalogue-lamaison-kofi-setordji-main.jpg",
+      "/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-main.jpg",
     thumbnailUrlSmall:
-      "/assets/images/projects/whobeme/whobeme-exhibition-ghana-art-catalogue-lamaison-kofi-setordji-mobile.jpg",
+      "/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-mobile.jpg",
     thumbnailUrlLarge:
-      "/assets/images/projects/whobeme/whobeme-exhibition-ghana-art-catalogue-lamaison-kofi-setordji-thumb.jpg",
+      "/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-thumb.jpg",
     galleryImgs: [
       {
         smallImgUrl:
-          "/assets/images/projects/whobeme/whobeme-exhibition-ghana-catalogue-lamaison-kofi-setordji-mobile.jpg",
+          "/assets/images/projects/beauti/Beauti-skin-clinic-london-logo-design-mobile.jpg",
         largeImgUrl:
-          "/assets/images/projects/whobeme/whobeme-exhibition-ghana-catalogue-lamaison-kofi-setordji-half.jpg",
+          "/assets/images/projects/beauti/Beauti-skin-clinic-london-logo-design-big.jpg",
+        type: "full"
+      },
+      {
+        smallImgUrl:
+          "/assets/images/projects/beauti/Beauti-skin-clinic-london-salon-brochure-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/beauti/Beauti-skin-clinic-london-salon-brochure.jpg",
         type: "half"
       },
       {
         smallImgUrl:
-          "/assets/images/projects/whobeme/whobeme-exhibition-ghana-catalogue-ayse-birsel-bibi-seck-chair-mobile.jpg",
+          "/assets/images/projects/beauti/Beauti-skin-clinic-london-beauty-brochure-mobile.jpg",
         largeImgUrl:
-          "/assets/images/projects/whobeme/whobeme-exhibition-ghana-catalogue-ayse-birsel-bibi-seck-chair-half.jpg",
+          "/assets/images/projects/beauti/Beauti-skin-clinic-london-beauty-brochure.jpg",
         type: "half"
       },
       {
         smallImgUrl:
-          "/assets/images/projects/whobeme/whobeme-exhibition-ghana-art-painting-catalogue-lamaison-kofi-setordji-mobile.jpg",
+          "/assets/images/projects/beauti/Beauti-skin-clinic-london-website-mobileapp-mobile.jpg",
         largeImgUrl:
-          "/assets/images/projects/whobeme/whobeme-exhibition-ghana-art-painting-catalogue-lamaison-kofi-setordji-big.jpg",
+          "/assets/images/projects/beauti/Beauti-skin-clinic-london-website-mobileapp-big.jpg",
         type: "full"
       }
     ],
-    imgAlt: "Who Be Me | Elsa Benoldi Graphic Design"
+    imgAlt: "Beauti Skin Clinic London | Elsa Benoldi Graphic Design"
   },
+  {
+    projectId: "Faceology",
+    projectName: "Faceology",
+    projectDescription:
+      "Branding project for a global beauty chain specialized in facial treatments. The first shop has been opend in Moscow, Russia. The project includes logo design, packaging, stationery, signs, uniform and website design.",
+    clientName: "Faceology",
+    clientUrl: "",
+    services: "Creative Direction",
+    country: "Russia",
+    mainImgUrlSmall:
+      "/assets/images/projects/faceology/faceology-skincare-beauty-salon-soap-packaging-mobile.jpg",
+    mainImgUrlLarge:
+      "/assets/images/projects/faceology/faceology-skincare-beauty-salon-soap-packaging-main.jpg",
+    thumbnailUrlSmall:
+      "/assets/images/projects/faceology/faceology-skincare-beauty-salon-soap-packaging-mobile.jpg",
+    thumbnailUrlLarge:
+      "/assets/images/projects/faceology/faceology-skincare-beauty-salon-soap-packaging-thumb.jpg",
+    galleryImgs: [
+      {
+        smallImgUrl:
+          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-logo-design-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-logo-design-half.jpg",
+        type: "half"
+      },
+      {
+        smallImgUrl:
+          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-icons-design-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-icons-design-half.jpg",
+        type: "half"
+      },
+      {
+        smallImgUrl:
+          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-website-design-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-website-design-big.jpg",
+        type: "full"
+      },
+      {
+        smallImgUrl:
+          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-interior-design-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-interior-design-half.jpg",
+        type: "half"
+      },
+      {
+        smallImgUrl:
+          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-business-cards-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/faceology/faceology-skincare-beauty-salon-business-cards-half.jpg",
+        type: "half"
+      }
+    ],
+    imgAlt: "Faceology | Elsa Benoldi Graphic Design"
+  },
+    {
+    projectId: "nailor",
+    projectName: "Nailor",
+    projectDescription:
+      "Brand identity for a new professional line of nail polishes. The project includes logo and labels design. Nailor is a solution for creative professionals which offers best-selling shades of gel and nail polish to create a true masterpiece.",
+    clientName: "Nailor",
+    clientUrl: "https://nailorstore.com/",
+    services: "Logo, Packaging, Biz Card",
+    country: "Latvia",
+    mainImgUrlSmall:
+      "/assets/images/projects/nailor/nailor-nail-polish-manicure-business-card-design-mobile.jpg",
+    mainImgUrlLarge:
+      "/assets/images/projects/nailor/nailor-nail-polish-manicure-business-card-design-main.jpg",
+    thumbnailUrlSmall:
+      "/assets/images/projects/nailor/nailor-nail-polish-manicure-business-card-design-mobile.jpg",
+    thumbnailUrlLarge:
+      "/assets/images/projects/nailor/nailor-nail-polish-manicure-business-card-design-thumb.jpg",
+    galleryImgs: [
+      {
+        smallImgUrl:
+          "/assets/images/projects/nailor/nailor-nail-polish-manicure-logo-design-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/nailor/nailor-nail-polish-manicure-logo-design-half.jpg",
+        type: "half"
+      },
+      {
+        smallImgUrl:
+          "/assets/images/projects/nailor/nailor-nail-polish-manicure-gift-packaging-design-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/nailor/nailor-nail-polish-manicure-gift-packaging-design-half.jpg",
+        type: "half"
+      },
+      {
+        smallImgUrl:
+          "/assets/images/projects/nailor/nailor-nail-polish-manicure-label-packaging-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/nailor/nailor-nail-polish-manicure-label-packaging-big.jpg",
+        type: "full"
+      },
+      {
+        smallImgUrl:
+          "/assets/images/projects/nailor/nailor-nail-polish-manicure-packaging-design-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/nailor/nailor-nail-polish-manicure-packaging-design-half.jpg",
+        type: "half"
+      },
+      {
+        smallImgUrl:
+          "/assets/images/projects/nailor/nailor-nail-art-polish-manicure-packaging-label-design-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/nailor/nailor-nail-art-polish-manicure-packaging-label-design-half.jpg",
+        type: "half"
+      }
+    ],
+    imgAlt: "Nailor | Elsa Benoldi Graphic Design"
+  },
+  {
+    projectId: "italy-at-frieze",
+    projectName: "Italy at Frieze",
+    projectDescription:
+      "Catalogue design for Italy at Frieze exhibition that was held at the Embassy on Italy in London. The one-of-a-kind event in London was part of the programme of the art fairs Frieze London and Frieze Masters, which draw collectors and art lovers from around the world.",
+    clientName: "Embassy of Italy",
+    clientUrl: "",
+    services: "Catalogue Design",
+    country: "UK",
+    mainImgUrlSmall:
+      "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-scheggi-mobile.jpg",
+    mainImgUrlLarge:
+      "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-scheggi-main.jpg",
+    thumbnailUrlSmall:
+      "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-scheggi-mobile.jpg",
+    thumbnailUrlLarge:
+      "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-scheggi-thumb.jpg",
+    galleryImgs: [
+      {
+        smallImgUrl:
+          "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-big.jpg",
+        type: "full"
+      },
+      {
+        smallImgUrl:
+          "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-pistoletto-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-pistoletto-big.jpg",
+        type: "full"
+      },
+      {
+        smallImgUrl:
+          "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-embassy-pistoletto-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-embassy-pistoletto-big.jpg",
+        type: "full"
+      }
+    ],
+    imgAlt: "Italy at Frieze | Elsa Benoldi Graphic Design"
+  },
+
+
   {
     projectId: "Palchiki",
     projectName: "Palchiki",
@@ -664,6 +764,41 @@ export const BENOLDI_PROJECTS: Project[] = [
       }
     ],
     imgAlt: "Salumi Italiani | Elsa Benoldi Graphic Design"
+  },
+  {
+    projectId: "nailstuff",
+    projectName: "Nail Stuff",
+    projectDescription:
+      "Branding project for a new nail accessories and products online store opening soon.",
+    clientName: "Nail Stuff",
+    clientUrl: "",
+    services: "Branding",
+    country: "Belgium",
+    mainImgUrlSmall:
+      "/assets/images/projects/nailstuff/nailstuff-nailcare-beauty-branding-logo-design-mobile.jpg",
+    mainImgUrlLarge:
+      "/assets/images/projects/nailstuff/nailstuff-nailcare-beauty-branding-logo-design-main.jpg",
+    thumbnailUrlSmall:
+      "/assets/images/projects/nailstuff/nailstuff-nailcare-beauty-branding-logo-design-mobile.jpg",
+    thumbnailUrlLarge:
+      "/assets/images/projects/nailstuff/nailstuff-nailcare-beauty-branding-logo-design-thumb.jpg",
+    galleryImgs: [
+      {
+        smallImgUrl:
+          "/assets/images/projects/nailstuff/nailstuff-nailcare-beauty-branding-posters-design-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/nailstuff/nailstuff-nailcare-beauty-branding-posters-design-big.jpg",
+        type: "full"
+      },
+      {
+        smallImgUrl:
+          "/assets/images/projects/nailstuff/nailstuff-nailcare-beauty-branding-packaging-design-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/nailstuff/nailstuff-nailcare-beauty-branding-packaging-design-big.jpg",
+        type: "full"
+      }
+    ],
+    imgAlt: "Nail Stuff | Elsa Benoldi Graphic Design"
   }
 ];
 
