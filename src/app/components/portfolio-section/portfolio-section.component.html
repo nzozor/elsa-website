@@ -4,7 +4,7 @@
     class="row  portfolio-grid portfolio-title-overlay"
   >
     <!-- Portfolio Item -->
-    <div  class="portfolio-item" benoldiEnterViewport *ngFor="let thumbnail of thumbnails">
+    <div  class="portfolio-item" [benoldiEnterViewport]="animationDelay" *ngFor="let thumbnail of thumbnails">
       <a [routerLink]="['/project/', thumbnail.projectId]">
         <div class="portfolio-img">
           <picture>

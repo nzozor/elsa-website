@@ -1,12 +1,13 @@
 import { isPlatformBrowser } from '@angular/common';
 import { AfterViewInit, Directive, ElementRef, EventEmitter, HostBinding, Inject, Input, OnDestroy, OnInit, Output, PLATFORM_ID } from '@angular/core';
+import { delay } from 'rxjs/operators';
 
 @Directive({
   selector: '[benoldiEnterViewport]'
 })
 export class EnterViewportDirective  implements OnDestroy, OnInit, AfterViewInit {
-  @Input() threshold = 0;
-
+  threshold = 0;
+  @Input('benoldiEnterViewport') delay = '';
   @Output() visible = new EventEmitter<HTMLElement>();
   @HostBinding('class') elementVisibilityClass: string;
   private observer: IntersectionObserver | undefined;
@@ -45,11 +46,11 @@ export class EnterViewportDirective  implements OnDestroy, OnInit, AfterViewInit
         if (isIntersecting(entry)) {
           setTimeout(() => {
             this.elementVisibilityClass = 'enter-view-port visible';
-          }, 50);
+          }, parseInt(this.delay, 10));
         } else {
           setTimeout(() => {
             this.elementVisibilityClass = 'enter-view-port';
-          }, 50);
+          }, parseInt(this.delay, 10));
         }
       });
     }, options);
@@ -60,7 +61,7 @@ export class EnterViewportDirective  implements OnDestroy, OnInit, AfterViewInit
       return;
     }
 
-    this.elementVisibilityClass = 'enter-view-port hide-item';
+    this.elementVisibilityClass = 'enter-view-port';
     this.observer.observe(this.element.nativeElement);
   }
 }

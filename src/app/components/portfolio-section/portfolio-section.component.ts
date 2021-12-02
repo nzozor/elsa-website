@@ -11,6 +11,7 @@ import { DataService } from 'src/app/shared/services/data.service';
 export class PortfolioSectionComponent implements OnInit {
   @Input() thumbnails: Thumbnail[];
   @Input() loading: string;
+  @Input() animationDelay = '';
   constructor(private router: Router, private dataService: DataService) { }
 
   get assetsUrl(): string {
