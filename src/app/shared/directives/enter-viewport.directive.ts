@@ -43,9 +43,13 @@ export class EnterViewportDirective  implements OnDestroy, OnInit, AfterViewInit
     this.observer = new IntersectionObserver((entries, observer) => {
       entries.forEach(entry => {
         if (isIntersecting(entry)) {
-          this.elementVisibilityClass = 'enter-view-port visible';
+          setTimeout(() => {
+            this.elementVisibilityClass = 'enter-view-port visible';
+          }, 50);
         } else {
-          this.elementVisibilityClass = 'enter-view-port';
+          setTimeout(() => {
+            this.elementVisibilityClass = 'enter-view-port';
+          }, 50);
         }
       });
     }, options);
