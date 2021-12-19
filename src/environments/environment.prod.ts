@@ -4,7 +4,7 @@ export const environment = {
   endpoints: {
     express: {
       // url: `api`,
-      url: `http://localhost/api/v1`,
+      url: `http://localhost:3000/api/v1`,
       version: 'v1'
     },
   }
