@@ -1,6 +1,6 @@
 export const environment = {
   production: false,
-  mockdata: false,
+  mockdata: true,
   endpoints: {
     express: {
       // url: `api`,
