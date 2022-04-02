@@ -1,6 +1,48 @@
 import { Project } from 'src/app/shared/models/project';
 export const BENOLDI_PROJECTS: Project[] = [
   {
+    projectId: 'hiddenlane',
+    projectName: 'Hidden Lane',
+    projectDescription:
+      'Branding, label and packaging design for a new line of herbal tinctures.',
+    clientName: 'Hidden Lane',
+    clientUrl: '',
+    services: 'Branding, Packaging',
+    country: 'Canada',
+    mainImgUrlSmall:
+      '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-label-mobile.jpg',
+    mainImgUrlLarge:
+      '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-label-main.jpg',
+    thumbnailUrlSmall:
+      '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-label-mobile.jpg',
+    thumbnailUrlLarge:
+      '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-label-thumb.jpg',
+    galleryImgs: [
+      {
+        smallImgUrl:
+          '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-dropper-label-flowers-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-dropper-label-flowers.jpg',
+        type: 'half',
+      },
+      {
+        smallImgUrl:
+          '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-dropper-label-design-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-dropper-label-design.jpg',
+        type: 'half',
+      },
+      {
+        smallImgUrl:
+          '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-dropper-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-dropper-big.jpg',
+        type: 'full',
+      },
+    ],
+    imgAlt: 'Hidden Lane | Elsa Benoldi Graphic Design',
+  },
+  {
     projectId: 'flavia-frigeri',
     projectName: 'Flavia Frigeri',
     projectDescription:
@@ -41,48 +83,6 @@ export const BENOLDI_PROJECTS: Project[] = [
       },
     ],
     imgAlt: 'Flavia Frigeri | Elsa Benoldi Graphic Design',
-  },
-  {
-    projectId: 'De-Stress-Me',
-    projectName: 'De-Stress Me',
-    projectDescription:
-      'Branding design project for a new wellness & spa platform which provides useful information about new top spa offers, body care products and best beauty clinics in London. This project is currently work-in-progress.',
-    clientName: 'De-Stress Me',
-    clientUrl: '',
-    services: 'Logo Design',
-    country: 'UK',
-    mainImgUrlSmall:
-      '/assets/images/projects/destressme/destressme-wellness-spa-skincare-logo-design-mobile.jpg',
-    mainImgUrlLarge:
-      '/assets/images/projects/destressme/destressme-wellness-spa-skincare-logo-design-main.jpg',
-    thumbnailUrlSmall:
-      '/assets/images/projects/destressme/destressme-wellness-spa-skincare-soap-packaging-big.jpg',
-    thumbnailUrlLarge:
-      '/assets/images/projects/destressme/destressme-wellness-spa-skincare-soap-packaging-big.jpg',
-    galleryImgs: [
-      {
-        smallImgUrl:
-          '/assets/images/projects/destressme/destressme-wellness-spa-skincare-soap-packaging-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/destressme/destressme-wellness-spa-skincare-soap-packaging-big.jpg',
-        type: 'full',
-      },
-      {
-        smallImgUrl:
-          '/assets/images/projects/destressme/destressme-wellness-spa-skincare-website-design-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/destressme/destressme-wellness-spa-skincare-website-design-big.jpg',
-        type: 'full',
-      },
-      {
-        smallImgUrl:
-          '/assets/images/projects/destressme/destressme-wellness-spa-skincare-phone-case-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/destressme/destressme-wellness-spa-skincare-phone-case-big.jpg',
-        type: 'full',
-      },
-    ],
-    imgAlt: 'De–Stress Me | Elsa Benoldi Graphic Design',
   },
   {
     projectId: 'marblk',
@@ -140,6 +140,7 @@ export const BENOLDI_PROJECTS: Project[] = [
     ],
     imgAlt: 'Marblk | Elsa Benoldi Graphic Design',
   },
+
   {
     projectId: 'who-be-me',
     projectName: 'Who Be Me',
@@ -181,6 +182,238 @@ export const BENOLDI_PROJECTS: Project[] = [
       },
     ],
     imgAlt: 'Who Be Me | Elsa Benoldi Graphic Design',
+  },
+
+  {
+    projectId: 'clinicanaturals',
+    projectName: 'Clinica Naturals',
+    projectDescription:
+      'Branding and label design for a new natural supplement products line. Clinica Naturals sells natural supplements created in collaboration with MDs.',
+    clientName: 'Clinica Naturals',
+    clientUrl: '',
+    services: 'Branding, Packaging',
+    country: 'US',
+    mainImgUrlSmall:
+      '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-mobile.jpg',
+    mainImgUrlLarge:
+      '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-main.jpg',
+    thumbnailUrlSmall:
+      '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-mobile.jpg',
+    thumbnailUrlLarge:
+      '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-thumb.jpg',
+    galleryImgs: [
+      {
+        smallImgUrl:
+          '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-label-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-label-big.jpg',
+        type: 'full',
+      },
+      {
+        smallImgUrl:
+          '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-label-detail-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-label-detail-half.jpg',
+        type: 'half',
+      },
+      {
+        smallImgUrl:
+          '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-label-design-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-label-design-half.jpg',
+        type: 'half',
+      },
+    ],
+    imgAlt: 'Clinica Naturals | Elsa Benoldi Graphic Design',
+  },
+  {
+    projectId: 'italy-at-frieze',
+    projectName: 'Italy at Frieze',
+    projectDescription:
+      'Catalogue design for Italy at Frieze exhibition that was held at the Embassy on Italy in London. The one-of-a-kind event in London was part of the programme of the art fairs Frieze London and Frieze Masters, which draw collectors and art lovers from around the world.',
+    clientName: 'Embassy of Italy',
+    clientUrl: '',
+    services: 'Catalogue Design',
+    country: 'UK',
+    mainImgUrlSmall:
+      '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-scheggi-mobile.jpg',
+    mainImgUrlLarge:
+      '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-scheggi-main.jpg',
+    thumbnailUrlSmall:
+      '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-scheggi-mobile.jpg',
+    thumbnailUrlLarge:
+      '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-scheggi-thumb.jpg',
+    galleryImgs: [
+      {
+        smallImgUrl:
+          '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-big.jpg',
+        type: 'full',
+      },
+      {
+        smallImgUrl:
+          '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-pistoletto-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-pistoletto-big.jpg',
+        type: 'full',
+      },
+      {
+        smallImgUrl:
+          '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-embassy-pistoletto-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-embassy-pistoletto-big.jpg',
+        type: 'full',
+      },
+    ],
+    imgAlt: 'Italy at Frieze | Elsa Benoldi Graphic Design',
+  },
+  {
+    projectId: 'nailor',
+    projectName: 'Nailor',
+    projectDescription:
+      'Brand identity for a new professional line of nail polishes. The project includes logo and labels design. Nailor is a solution for creative professionals which offers best-selling shades of gel and nail polish to create a true masterpiece.',
+    clientName: 'Nailor',
+    clientUrl: 'https://nailorstore.com/',
+    services: 'Logo, Packaging, Biz Card',
+    country: 'Latvia',
+    mainImgUrlSmall:
+      '/assets/images/projects/nailor/nailor-nail-polish-manicure-business-card-design-mobile.jpg',
+    mainImgUrlLarge:
+      '/assets/images/projects/nailor/nailor-nail-polish-manicure-business-card-design-main.jpg',
+    thumbnailUrlSmall:
+      '/assets/images/projects/nailor/nailor-nail-polish-manicure-business-card-design-mobile.jpg',
+    thumbnailUrlLarge:
+      '/assets/images/projects/nailor/nailor-nail-polish-manicure-business-card-design-thumb.jpg',
+    galleryImgs: [
+      {
+        smallImgUrl:
+          '/assets/images/projects/nailor/nailor-nail-polish-manicure-logo-design-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/nailor/nailor-nail-polish-manicure-logo-design-half.jpg',
+        type: 'half',
+      },
+      {
+        smallImgUrl:
+          '/assets/images/projects/nailor/nailor-nail-polish-manicure-gift-packaging-design-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/nailor/nailor-nail-polish-manicure-gift-packaging-design-half.jpg',
+        type: 'half',
+      },
+      {
+        smallImgUrl:
+          '/assets/images/projects/nailor/nailor-nail-polish-manicure-label-packaging-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/nailor/nailor-nail-polish-manicure-label-packaging-big.jpg',
+        type: 'full',
+      },
+      {
+        smallImgUrl:
+          '/assets/images/projects/nailor/nailor-nail-polish-manicure-packaging-design-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/nailor/nailor-nail-polish-manicure-packaging-design-half.jpg',
+        type: 'half',
+      },
+      {
+        smallImgUrl:
+          '/assets/images/projects/nailor/nailor-nail-art-polish-manicure-packaging-label-design-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/nailor/nailor-nail-art-polish-manicure-packaging-label-design-half.jpg',
+        type: 'half',
+      },
+    ],
+    imgAlt: 'Nailor | Elsa Benoldi Graphic Design',
+  },
+  {
+    projectId: 'beauti',
+    projectName: 'Beauti',
+    projectDescription:
+      'Refreshed brand identity for a beauty and skin clinic chain in London. The visual language has evolved to feel more inclusive, open and sophisticated. The customized typography matches soft curves and straight lines and the letters reveal sinuous shapes. The identity captures its unique mix of playfulness and harmony.',
+    clientName: 'Beauti Skin Clinic',
+    clientUrl: 'http://www.beautiskinclinic.com',
+    services: 'Logo Design, Web Design, Brochure',
+    country: 'UK',
+    mainImgUrlSmall:
+      '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-mobile.jpg',
+    mainImgUrlLarge:
+      '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-main.jpg',
+    thumbnailUrlSmall:
+      '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-mobile.jpg',
+    thumbnailUrlLarge:
+      '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-thumb.jpg',
+    galleryImgs: [
+      {
+        smallImgUrl:
+          '/assets/images/projects/beauti/Beauti-skin-clinic-london-logo-design-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/beauti/Beauti-skin-clinic-london-logo-design-big.jpg',
+        type: 'full',
+      },
+      {
+        smallImgUrl:
+          '/assets/images/projects/beauti/Beauti-skin-clinic-london-salon-brochure-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/beauti/Beauti-skin-clinic-london-salon-brochure.jpg',
+        type: 'half',
+      },
+      {
+        smallImgUrl:
+          '/assets/images/projects/beauti/Beauti-skin-clinic-london-beauty-brochure-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/beauti/Beauti-skin-clinic-london-beauty-brochure.jpg',
+        type: 'half',
+      },
+      {
+        smallImgUrl:
+          '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-mobileapp-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-mobileapp-big.jpg',
+        type: 'full',
+      },
+    ],
+    imgAlt: 'Beauti Skin Clinic London | Elsa Benoldi Graphic Design',
+  },
+  {
+    projectId: 'De-Stress-Me',
+    projectName: 'De-Stress Me',
+    projectDescription:
+      'Branding design project for a new wellness & spa platform which provides useful information about new top spa offers, body care products and best beauty clinics in London. This project is currently work-in-progress.',
+    clientName: 'De-Stress Me',
+    clientUrl: '',
+    services: 'Logo Design',
+    country: 'UK',
+    mainImgUrlSmall:
+      '/assets/images/projects/destressme/destressme-wellness-spa-skincare-logo-design-mobile.jpg',
+    mainImgUrlLarge:
+      '/assets/images/projects/destressme/destressme-wellness-spa-skincare-logo-design-main.jpg',
+    thumbnailUrlSmall:
+      '/assets/images/projects/destressme/destressme-wellness-spa-skincare-soap-packaging-big.jpg',
+    thumbnailUrlLarge:
+      '/assets/images/projects/destressme/destressme-wellness-spa-skincare-soap-packaging-big.jpg',
+    galleryImgs: [
+      {
+        smallImgUrl:
+          '/assets/images/projects/destressme/destressme-wellness-spa-skincare-soap-packaging-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/destressme/destressme-wellness-spa-skincare-soap-packaging-big.jpg',
+        type: 'full',
+      },
+      {
+        smallImgUrl:
+          '/assets/images/projects/destressme/destressme-wellness-spa-skincare-website-design-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/destressme/destressme-wellness-spa-skincare-website-design-big.jpg',
+        type: 'full',
+      },
+      {
+        smallImgUrl:
+          '/assets/images/projects/destressme/destressme-wellness-spa-skincare-phone-case-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/destressme/destressme-wellness-spa-skincare-phone-case-big.jpg',
+        type: 'full',
+      },
+    ],
+    imgAlt: 'De–Stress Me | Elsa Benoldi Graphic Design',
   },
   {
     projectId: 'Tenten',
@@ -253,55 +486,6 @@ export const BENOLDI_PROJECTS: Project[] = [
     imgAlt: 'Tenten | Elsa Benoldi Graphic Design',
   },
   {
-    projectId: 'beauti',
-    projectName: 'Beauti',
-    projectDescription:
-      'Refreshed brand identity for a beauty and skin clinic chain in London. The visual language has evolved to feel more inclusive, open and sophisticated. The customized typography matches soft curves and straight lines and the letters reveal sinuous shapes. The identity captures its unique mix of playfulness and harmony.',
-    clientName: 'Beauti Skin Clinic',
-    clientUrl: 'http://www.beautiskinclinic.com',
-    services: 'Logo Design, Web Design, Brochure',
-    country: 'UK',
-    mainImgUrlSmall:
-      '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-mobile.jpg',
-    mainImgUrlLarge:
-      '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-main.jpg',
-    thumbnailUrlSmall:
-      '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-mobile.jpg',
-    thumbnailUrlLarge:
-      '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-thumb.jpg',
-    galleryImgs: [
-      {
-        smallImgUrl:
-          '/assets/images/projects/beauti/Beauti-skin-clinic-london-logo-design-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/beauti/Beauti-skin-clinic-london-logo-design-big.jpg',
-        type: 'full',
-      },
-      {
-        smallImgUrl:
-          '/assets/images/projects/beauti/Beauti-skin-clinic-london-salon-brochure-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/beauti/Beauti-skin-clinic-london-salon-brochure.jpg',
-        type: 'half',
-      },
-      {
-        smallImgUrl:
-          '/assets/images/projects/beauti/Beauti-skin-clinic-london-beauty-brochure-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/beauti/Beauti-skin-clinic-london-beauty-brochure.jpg',
-        type: 'half',
-      },
-      {
-        smallImgUrl:
-          '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-mobileapp-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-mobileapp-big.jpg',
-        type: 'full',
-      },
-    ],
-    imgAlt: 'Beauti Skin Clinic London | Elsa Benoldi Graphic Design',
-  },
-  {
     projectId: 'Faceology',
     projectName: 'Faceology',
     projectDescription:
@@ -357,104 +541,7 @@ export const BENOLDI_PROJECTS: Project[] = [
     ],
     imgAlt: 'Faceology | Elsa Benoldi Graphic Design',
   },
-  {
-    projectId: 'nailor',
-    projectName: 'Nailor',
-    projectDescription:
-      'Brand identity for a new professional line of nail polishes. The project includes logo and labels design. Nailor is a solution for creative professionals which offers best-selling shades of gel and nail polish to create a true masterpiece.',
-    clientName: 'Nailor',
-    clientUrl: 'https://nailorstore.com/',
-    services: 'Logo, Packaging, Biz Card',
-    country: 'Latvia',
-    mainImgUrlSmall:
-      '/assets/images/projects/nailor/nailor-nail-polish-manicure-business-card-design-mobile.jpg',
-    mainImgUrlLarge:
-      '/assets/images/projects/nailor/nailor-nail-polish-manicure-business-card-design-main.jpg',
-    thumbnailUrlSmall:
-      '/assets/images/projects/nailor/nailor-nail-polish-manicure-business-card-design-mobile.jpg',
-    thumbnailUrlLarge:
-      '/assets/images/projects/nailor/nailor-nail-polish-manicure-business-card-design-thumb.jpg',
-    galleryImgs: [
-      {
-        smallImgUrl:
-          '/assets/images/projects/nailor/nailor-nail-polish-manicure-logo-design-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/nailor/nailor-nail-polish-manicure-logo-design-half.jpg',
-        type: 'half',
-      },
-      {
-        smallImgUrl:
-          '/assets/images/projects/nailor/nailor-nail-polish-manicure-gift-packaging-design-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/nailor/nailor-nail-polish-manicure-gift-packaging-design-half.jpg',
-        type: 'half',
-      },
-      {
-        smallImgUrl:
-          '/assets/images/projects/nailor/nailor-nail-polish-manicure-label-packaging-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/nailor/nailor-nail-polish-manicure-label-packaging-big.jpg',
-        type: 'full',
-      },
-      {
-        smallImgUrl:
-          '/assets/images/projects/nailor/nailor-nail-polish-manicure-packaging-design-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/nailor/nailor-nail-polish-manicure-packaging-design-half.jpg',
-        type: 'half',
-      },
-      {
-        smallImgUrl:
-          '/assets/images/projects/nailor/nailor-nail-art-polish-manicure-packaging-label-design-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/nailor/nailor-nail-art-polish-manicure-packaging-label-design-half.jpg',
-        type: 'half',
-      },
-    ],
-    imgAlt: 'Nailor | Elsa Benoldi Graphic Design',
-  },
-  {
-    projectId: 'italy-at-frieze',
-    projectName: 'Italy at Frieze',
-    projectDescription:
-      'Catalogue design for Italy at Frieze exhibition that was held at the Embassy on Italy in London. The one-of-a-kind event in London was part of the programme of the art fairs Frieze London and Frieze Masters, which draw collectors and art lovers from around the world.',
-    clientName: 'Embassy of Italy',
-    clientUrl: '',
-    services: 'Catalogue Design',
-    country: 'UK',
-    mainImgUrlSmall:
-      '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-scheggi-mobile.jpg',
-    mainImgUrlLarge:
-      '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-scheggi-main.jpg',
-    thumbnailUrlSmall:
-      '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-scheggi-mobile.jpg',
-    thumbnailUrlLarge:
-      '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-scheggi-thumb.jpg',
-    galleryImgs: [
-      {
-        smallImgUrl:
-          '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-big.jpg',
-        type: 'full',
-      },
-      {
-        smallImgUrl:
-          '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-pistoletto-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-catalogue-pistoletto-big.jpg',
-        type: 'full',
-      },
-      {
-        smallImgUrl:
-          '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-embassy-pistoletto-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/italyatfrieze/italy-frieze-contemporary-art-exhibition-embassy-pistoletto-big.jpg',
-        type: 'full',
-      },
-    ],
-    imgAlt: 'Italy at Frieze | Elsa Benoldi Graphic Design',
-  },
+
   {
     projectId: 'Palchiki',
     projectName: 'Palchiki',
@@ -796,89 +883,5 @@ export const BENOLDI_PROJECTS: Project[] = [
       },
     ],
     imgAlt: 'Nail Stuff | Elsa Benoldi Graphic Design',
-  },
-  {
-    projectId: 'hiddenlane',
-    projectName: 'Hidden Lane',
-    projectDescription:
-      'Branding, label and packaging design for a new line of herbal tinctures.',
-    clientName: 'Hidden Lane',
-    clientUrl: '',
-    services: 'Branding, Packaging',
-    country: 'Canada',
-    mainImgUrlSmall:
-      '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-label-mobile.jpg',
-    mainImgUrlLarge:
-      '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-label-main.jpg',
-    thumbnailUrlSmall:
-      '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-label-mobile.jpg',
-    thumbnailUrlLarge:
-      '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-label-thumb.jpg',
-    galleryImgs: [
-      {
-        smallImgUrl:
-          '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-dropper-label-flowers-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-dropper-label-flowers.jpg',
-        type: 'half',
-      },
-      {
-        smallImgUrl:
-          '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-dropper-label-design-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-dropper-label-design.jpg',
-        type: 'half',
-      },
-      {
-        smallImgUrl:
-          '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-dropper-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/hiddenlane/hiddenlane-oil-herbal-beauty-wellness-packaging-dropper-big.jpg',
-        type: 'full',
-      },
-    ],
-    imgAlt: 'Hidden Lane | Elsa Benoldi Graphic Design',
-  },
-  {
-    projectId: 'clinicanaturals',
-    projectName: 'Clinica Naturals',
-    projectDescription:
-      'Branding and label design for a new natural supplement products line. Clinica Naturals sells natural supplements created in collaboration with MDs.',
-    clientName: 'Clinica Naturals',
-    clientUrl: '',
-    services: 'Branding, Packaging',
-    country: 'US',
-    mainImgUrlSmall:
-      '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-mobile.jpg',
-    mainImgUrlLarge:
-      '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-main.jpg',
-    thumbnailUrlSmall:
-      '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-mobile.jpg',
-    thumbnailUrlLarge:
-      '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-thumb.jpg',
-    galleryImgs: [
-      {
-        smallImgUrl:
-          '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-label-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-label-big.jpg',
-        type: 'full',
-      },
-      {
-        smallImgUrl:
-          '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-label-detail-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-label-detail-half.jpg',
-        type: 'half',
-      },
-      {
-        smallImgUrl:
-          '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-label-design-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/clinicanaturals/clinicanaturals-supplements-wellness-packaging-label-design-half.jpg',
-        type: 'half',
-      },
-    ],
-    imgAlt: 'Clinica Naturals | Elsa Benoldi Graphic Design',
   },
 ];
