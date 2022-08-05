@@ -183,7 +183,6 @@ export const BENOLDI_PROJECTS: Project[] = [
     ],
     imgAlt: 'Who Be Me | Elsa Benoldi Graphic Design',
   },
-
   {
     projectId: 'clinicanaturals',
     projectName: 'Clinica Naturals',
@@ -325,53 +324,46 @@ export const BENOLDI_PROJECTS: Project[] = [
     imgAlt: 'Nailor | Elsa Benoldi Graphic Design',
   },
   {
-    projectId: 'beauti',
-    projectName: 'Beauti',
+    projectId: "skipwiths",
+    projectName: "Skipwiths",
     projectDescription:
-      'Refreshed brand identity for a beauty and skin clinic chain in London. The visual language has evolved to feel more inclusive, open and sophisticated. The customized typography matches soft curves and straight lines and the letters reveal sinuous shapes. The identity captures its unique mix of playfulness and harmony.',
-    clientName: 'Beauti Skin Clinic',
-    clientUrl: 'http://www.beautiskinclinic.com',
-    services: 'Logo Design, Web Design, Brochure',
-    country: 'UK',
+      "Branding project for an international art business firm led by duo-Heejin No and Grey Skipwith in London. We created a symbol inspired by the Skipwith's family coat of arms. The symbol along with a sophisticated and neat typeface, evoke the passion of the business for exploring young, emerging and new artists.",
+    clientName: "Skipwiths",
+    clientUrl: "https://skipwiths.com/",
+    services: "Branding, Stationery",
+    country: "UK",
     mainImgUrlSmall:
-      '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-mobile.jpg',
+      "/assets/images/projects/skipwiths/skipwiths-art-gallery-stationery-logo-branding-damienhirst-mobile.jpg",
     mainImgUrlLarge:
-      '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-main.jpg',
+      "/assets/images/projects/skipwiths/skipwiths-art-gallery-stationery-logo-branding-damienhirst-main.jpg",
     thumbnailUrlSmall:
-      '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-mobile.jpg',
+      "/assets/images/projects/skipwiths/skipwiths-art-gallery-stationery-logo-branding-damienhirst-mobile.jpg",
     thumbnailUrlLarge:
-      '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-thumb.jpg',
+      "/assets/images/projects/skipwiths/skipwiths-art-gallery-stationery-logo-branding-damienhirst-thumb.jpg",
     galleryImgs: [
       {
         smallImgUrl:
-          '/assets/images/projects/beauti/Beauti-skin-clinic-london-logo-design-mobile.jpg',
+          "/assets/images/projects/skipwiths/skipwiths-art-gallery-stationery-logo-branding-mobile.jpg",
         largeImgUrl:
-          '/assets/images/projects/beauti/Beauti-skin-clinic-london-logo-design-big.jpg',
-        type: 'full',
+          "/assets/images/projects/skipwiths/skipwiths-art-gallery-stationery-logo-branding-big.jpg",
+        type: "full"
       },
       {
         smallImgUrl:
-          '/assets/images/projects/beauti/Beauti-skin-clinic-london-salon-brochure-mobile.jpg',
+          "/assets/images/projects/skipwiths/skipwiths-art-gallery-stationery-logo-branding-history-mobile.jpg",
         largeImgUrl:
-          '/assets/images/projects/beauti/Beauti-skin-clinic-london-salon-brochure.jpg',
-        type: 'half',
+          "/assets/images/projects/skipwiths/skipwiths-art-gallery-stationery-logo-branding-history-big.jpg",
+        type: "full"
       },
       {
         smallImgUrl:
-          '/assets/images/projects/beauti/Beauti-skin-clinic-london-beauty-brochure-mobile.jpg',
+          "/assets/images/projects/skipwiths/skipwith-art-gallery-stationery-logo-branding-website-mobile.jpg",
         largeImgUrl:
-          '/assets/images/projects/beauti/Beauti-skin-clinic-london-beauty-brochure.jpg',
-        type: 'half',
-      },
-      {
-        smallImgUrl:
-          '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-mobileapp-mobile.jpg',
-        largeImgUrl:
-          '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-mobileapp-big.jpg',
-        type: 'full',
-      },
+          "/assets/images/projects/skipwiths/skipwith-art-gallery-stationery-logo-branding-website-big.jpg",
+        type: "full"
+      }
     ],
-    imgAlt: 'Beauti Skin Clinic London | Elsa Benoldi Graphic Design',
+    imgAlt: "Skipwiths | Elsa Benoldi Graphic Design"
   },
   {
     projectId: 'De-Stress-Me',
@@ -541,7 +533,55 @@ export const BENOLDI_PROJECTS: Project[] = [
     ],
     imgAlt: 'Faceology | Elsa Benoldi Graphic Design',
   },
-
+  {
+    projectId: 'beauti',
+    projectName: 'Beauti',
+    projectDescription:
+      'Refreshed brand identity for a beauty and skin clinic chain in London. The visual language has evolved to feel more inclusive, open and sophisticated. The customized typography matches soft curves and straight lines and the letters reveal sinuous shapes. The identity captures its unique mix of playfulness and harmony.',
+    clientName: 'Beauti Skin Clinic',
+    clientUrl: 'http://www.beautiskinclinic.com',
+    services: 'Logo Design, Web Design, Brochure',
+    country: 'UK',
+    mainImgUrlSmall:
+      '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-mobile.jpg',
+    mainImgUrlLarge:
+      '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-main.jpg',
+    thumbnailUrlSmall:
+      '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-mobile.jpg',
+    thumbnailUrlLarge:
+      '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-design-thumb.jpg',
+    galleryImgs: [
+      {
+        smallImgUrl:
+          '/assets/images/projects/beauti/Beauti-skin-clinic-london-logo-design-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/beauti/Beauti-skin-clinic-london-logo-design-big.jpg',
+        type: 'full',
+      },
+      {
+        smallImgUrl:
+          '/assets/images/projects/beauti/Beauti-skin-clinic-london-salon-brochure-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/beauti/Beauti-skin-clinic-london-salon-brochure.jpg',
+        type: 'half',
+      },
+      {
+        smallImgUrl:
+          '/assets/images/projects/beauti/Beauti-skin-clinic-london-beauty-brochure-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/beauti/Beauti-skin-clinic-london-beauty-brochure.jpg',
+        type: 'half',
+      },
+      {
+        smallImgUrl:
+          '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-mobileapp-mobile.jpg',
+        largeImgUrl:
+          '/assets/images/projects/beauti/Beauti-skin-clinic-london-website-mobileapp-big.jpg',
+        type: 'full',
+      },
+    ],
+    imgAlt: 'Beauti Skin Clinic London | Elsa Benoldi Graphic Design',
+  },
   {
     projectId: 'Palchiki',
     projectName: 'Palchiki',
@@ -883,5 +923,54 @@ export const BENOLDI_PROJECTS: Project[] = [
       },
     ],
     imgAlt: 'Nail Stuff | Elsa Benoldi Graphic Design',
+  },
+  {
+    projectId: "ceviga",
+    projectName: "Ceviga",
+    projectDescription:
+      "Catalogue and postcards design for Ceviga's solo exhibition on the occasion of the Venice Biennale 2022.",
+    clientName: "Skipwiths",
+    clientUrl: "https://www.ceviga.com/",
+    services: "Catalogue, Postcards design",
+    country: "UK",
+    mainImgUrlSmall:
+      "/assets/images/projects/ceviga/ceviga-art-biennale-poster-design-watercolour-exhibition-mobile.jpg",
+    mainImgUrlLarge:
+      "/assets/images/projects/ceviga/ceviga-art-biennale-poster-design-watercolour-exhibition-main.jpg",
+    thumbnailUrlSmall:
+      "/assets/images/projects/ceviga/ceviga-art-biennale-poster-design-watercolour-exhibition-mobile.jpg",
+    thumbnailUrlLarge:
+      "/assets/images/projects/ceviga/ceviga-art-biennale-poster-design-watercolour-exhibition-thumb.jpg",
+    galleryImgs: [
+      {
+        smallImgUrl:
+          "/assets/images/projects/ceviga/ceviga-art-biennale-catalogue-design-cover-painting-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/ceviga/ceviga-art-biennale-catalogue-design-cover-painting-big.jpg",
+        type: "full"
+      },
+      {
+        smallImgUrl:
+          "/assets/images/projects/ceviga/ceviga-art-biennale-catalogue-design-layout-watercolours-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/ceviga/ceviga-art-biennale-catalogue-design-layout-watercolours-half.jpg",
+        type: "half"
+      },
+      {
+        smallImgUrl:
+          "/assets/images/projects/ceviga/ceviga-art-biennale-catalogue-design-layout-picture-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/ceviga/ceviga-art-biennale-catalogue-design-layout-picture-mobile.jpg",
+        type: "half"
+      },
+      {
+        smallImgUrl:
+          "/assets/images/projects/ceviga/ceviga-art-biennale-postcards-design-painting-mobile.jpg",
+        largeImgUrl:
+          "/assets/images/projects/ceviga/ceviga-art-biennale-postcards-design-painting-big.jpg",
+        type: "full"
+      }
+    ],
+    imgAlt: "Ceviga | Elsa Benoldi Graphic Design"
   },
 ];
