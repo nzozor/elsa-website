@@ -1,15 +1,15 @@
 import { isPlatformBrowser } from '@angular/common';
-import { AfterViewInit, Directive, ElementRef, EventEmitter, HostBinding, Inject, Input, OnDestroy, OnInit, Output, PLATFORM_ID } from '@angular/core';
+import { AfterContentInit, AfterViewInit, Directive, ElementRef, EventEmitter, HostBinding, Inject, Input, OnDestroy, OnInit, Output, PLATFORM_ID } from '@angular/core';
 import { delay } from 'rxjs/operators';
 
 @Directive({
   selector: '[benoldiEnterViewport]'
 })
-export class EnterViewportDirective  implements OnDestroy, OnInit, AfterViewInit {
+export class EnterViewportDirective  implements OnDestroy, OnInit, AfterContentInit {
   threshold = 0;
   @Input('benoldiEnterViewport') delay = '';
   @Output() visible = new EventEmitter<HTMLElement>();
-  @HostBinding('class') elementVisibilityClass: string;
+  @HostBinding('class') elementVisibilityClass = '';
   private observer: IntersectionObserver | undefined;
 
 
@@ -21,7 +21,7 @@ export class EnterViewportDirective  implements OnDestroy, OnInit, AfterViewInit
     }
   }
 
-  ngAfterViewInit(): void {
+  ngAfterContentInit(): void {
     this.startObservingElements();
   }
 
