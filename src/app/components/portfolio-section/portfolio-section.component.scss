@@ -23,17 +23,17 @@
 
     .portfolio-item {
       cursor: pointer;
-      padding: 25px;
+      margin: 25px;
       padding-top: 0;
 
       @include breakpoint-above(sm) {
-        padding: 15px;
+        margin: 15px;
         max-width: 50%;
       }
 
       @include breakpoint-above(md) {
-        padding: 13px;
-        max-width: 33.3%;
+        margin: 15px;
+        max-width: 30%;
       }
 
       a {
