@@ -16,11 +16,11 @@ export class AboutPageComponent implements OnInit {
   items: ServiceItem[] = [
     {
       title: 'Brand Identity',
-      description: 'From a logo to a complete brand style guide, I build identities that incorporate the voice,values, vision and personality of a business.'
+      description: 'From a logo to a complete brand style guide, I build identities that incorporate the voice, values, vision and personality of a business.'
     },
     {
       title: 'Print Design',
-      description: 'I create beautifully designed books, cataloguesand packaging. I’m constantly lookingfor the newest materials and best suppliers.'
+      description: 'I create beautifully designed books, catalogue sand packaging. I’m constantly looking for the newest materials and best suppliers.'
     },
     {
       title: 'Digital Design',
